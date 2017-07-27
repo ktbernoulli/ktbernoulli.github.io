@@ -1,130 +1,110 @@
-# -----------------------------------------------------------------------------
-#  User configuration
-# -----------------------------------------------------------------------------
+# main text of home
+name: John Doe
+bio: A Man who travels the world eating noodles
 
-title:               Broccoli Tempura & Data
+# twitter summary info
+description: A blog about technology and stuff related
 
-# The unique resource location of your page.
-# Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://ktbernoulli.github.io
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
-# Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             ''
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: true
+resume-url: https://google.com/?q=my+resume
 
-# A very short description of your page
-tagline:             I like broccoli tempura & data.
+url: https://koppl.in/indigo
+# your url: http://USERNAME.github.io
 
-# A short description of the page, used in the sidebar and as fallback for the meta description tag.
-# Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:         >
-  Has anyone even seen what happens to data when
-  we mix it with broccoli tempura? No? I have.
+permalink: /:title/
 
-# This should be the same author as first entry in `_data/authors.yml`
-author:
-  name:              Kate Ta
-  email:             kate@thedevmasters.com
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
 
-# Fallback image and color
-image:               /hydejack/assets/img/trinh.jpg
-color:               '#4f86aa'
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
 
-# The font used for headings. Expects a string that is a valid CSS font-family value.
-font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mydisqus # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
 
-# The text font. Expects a string that is a valid CSS font-family value.
-font:                "'Noto Serif', Georgia, serif"
+# if you don't have any of social below, comment the line
+facebook: myfacebook
+twitter: mytwitter
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+github: mygithub
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: myemail@gmail.com
 
-# The string encoding what fonts to fetch from Google Fonts.
-# See: https://qwtel.com/hydejack/docs/configuration/
-google_fonts:        Roboto+Slab:700|Noto+Serif:400,400i,700,700i
+authors:
+    johndoe:
+        name: John Doe
+        bio: A Man who travels the world eating noodles
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: johndoe
+    jamesfoster:
+        name: James Foster
+        bio: A Man who develops software with coffee
+        external-image: false
+        picture: assets/images/james.jpg
+        twitter: jamesfoster
 
-# If you do not use a Google Fonts, uncomment the line below
-# no_google_fonts:     true
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
 
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-# google_analytics:    <UA-XXXXXXXX-X>
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
 
-# Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    ktbernoulli
+# if you don't need projects, comment the *projects* configs below
+projects: true
 
-# This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. All rights reserved.'
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
 
-# Format of the permalinks
-permalink:           pretty
+# do you want to show the "read time" of the posts?
+read-time: true
 
-# Pagination configuration (used by the `blog` layout)
-paginate:            5
-paginate_path:       '/page-:num/'
+# do you want to show the "tags" inside the posts?
+show-tags: true
 
-# If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
-# so that the location of the feed XML stays the same.
-# feed:
-#   path:              atom.xml
+# related posts inside a post?
+related: true
 
-# Set to true when building with the `--lsi` option
-# See: https://jekyllrb.com/docs/variables/#site-variables
-# use_lsi:             true
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
 
-# Set to `true` if you don't want to show an icon after each link that opens to an external site
-# no_mark_external:    true
+# show author block at the end of a post ?
+show-author: true
 
-# Uncomment this line if third party plugins fail to work with dynimically loaded pages
-# disable_push_state:  true
-
-# Uncomment this line if want to disable the touch drawer on mobile
-# disable_drawer: true
-
-# -----------------------------------------------------------------------------
-#  Collections
-# -----------------------------------------------------------------------------
-
-collections:
-  featured_categories:
-    permalink:       /category/:name/
-    output:          true
-  featured_tags:
-    permalink:       /tag/:name/
-    output:          true
-  projects:
-    permalink:       /projects/:path/
-    output:          true
-
-# -----------------------------------------------------------------------------
-#  Advanced configuration
-# -----------------------------------------------------------------------------
+# do you want some animations?
+animation: true
 
 gems:
+  - jekyll-seo-tag
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-redirect-from
+  - jemoji
 
-exclude:
-  - README.md
-  - LICENSE.md
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-
-kramdown:
-  footnote_backlink: '&#x21a9;&#xfe0e;'
-  math_engine:       mathjax
-  math_engine_opts:
-    preview:         true
-    preview_as_code: true
-
-compress_html:
-  comments:          ["<!-- ", " -->"]
-  clippings:         all
-  endings:           all
-  ignore:
-    envs:            [development]
-
-sass:
-  style:             compressed
+jekyll-mentions:
+    base_url: https://github.com
