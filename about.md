@@ -26,4 +26,6 @@ layout: page
 	<li>& yes, I do really like broccoli tempura.</li>
 </ul>
 
+Here is a random music video that I am currently feeling,
+
 <iframe width="300" height="150" src="https://www.youtube.com/embed/cSX0-MP6tjw" frameborder="0" allowfullscreen></iframe>
