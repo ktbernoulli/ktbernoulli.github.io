@@ -12,7 +12,7 @@ layout: page
 	<li>My first coding language was HTML, designing my Myspace page. CSS scares me slightly.</li>
 	<li>The first time I was exposed to statistics was when my high school
 	AP Statistics teacher came to my trigonometry class <b>& did a legitimate
-	business presentation</b> <b><i>in front of 15-17 year olds</b></i> about the fact that
+	business presentation in front of 15-17 year olds</b> about the fact that
 	they can take any path they want for mathematical learning, but they
 	will come back to learn statistics. He was damn right. As usual.</li>
 	<li>I originally wanted to be an accountant. That is data, per say,
