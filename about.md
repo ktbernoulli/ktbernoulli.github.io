@@ -23,9 +23,10 @@ layout: page
 	<li>If anything, I know I should always be in the student mindset,
 	because someone out there will always know more than you in any subject,
 	it would be foolish to consider myself a sole expert in any subject.</li>
-	<li>& yes, I do really like broccoli tempura.</li>
+	<li>& yes, I do really like broccoli tempura; to this day,
+	my husband has not been able to tell you what broccoli tempura even tastes like.</li>
 </ul>
 
-Here is a random music video that I am currently feeling,
+<h2>Here is a random music video that I am currently feeling, </h2>
 
-<iframe width="300" height="150" src="https://www.youtube.com/embed/cSX0-MP6tjw" frameborder="0" allowfullscreen></iframe>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/cSX0-MP6tjw" frameborder="0"></iframe>
