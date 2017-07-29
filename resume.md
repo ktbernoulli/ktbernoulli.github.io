@@ -46,4 +46,4 @@ I unfortunately am not comfortable to call myself a Bayesian expert, but Markov 
 	<li>Coming soon!</li>
 </ul>
 
-Being a data scientist means I have projects, just not those that are public-friendly.
+Being a data scientist means I have projects, just not those that are public-friendly. - shrugs -
