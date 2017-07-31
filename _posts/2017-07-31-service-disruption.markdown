@@ -13,4 +13,4 @@ externalLink: false
 
 # Part One
 
-<iframe src="https://ktbernoulli.github.io/servicedisruption-bareminimum/part-one.html" width="800" height="400" scrolling="yes"> </iframe>
+<iframe src="https://ktbernoulli.github.io/servicedisruption-bareminimum/part-one.html" width="auto" height="400" scrolling="yes"> </iframe>
