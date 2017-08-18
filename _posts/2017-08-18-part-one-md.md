@@ -1,12 +1,12 @@
 ---
-title: "An example of a .md of your Jupyter Notebook"
+title: "tDM : An example of a .md of your Jupyter Notebook"
 layout: post
 date: 2017-08-18
-tag: project
-projects: true
+tag: posting
+projects: false
 hidden: true # don't count this post in blog pagination
-description: "If you are unsatisfied with your project, improve upon mine."
-category: project
+description: "A render that is clean because it does not show all the features of the original notebook."
+category: instruction
 author: kateta
 externalLink: false
 ---
