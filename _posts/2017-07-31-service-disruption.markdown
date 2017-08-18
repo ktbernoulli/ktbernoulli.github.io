@@ -1,5 +1,5 @@
 ---
-title: "Service Disruption - Bare Minimum"
+title: "An example of Jupyter Notebook by .html in an iframe"
 layout: post
 date: 2017-07-27
 tag: project
