@@ -1,7 +1,7 @@
 ---
 title: "An example of a .html of your Jupyter Notebook in an iframe"
 layout: post
-date: 2017-07-27
+date: 2017-08-18
 tag: project
 projects: true
 hidden: true # don't count this post in blog pagination
