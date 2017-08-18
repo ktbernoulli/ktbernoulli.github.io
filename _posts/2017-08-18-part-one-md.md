@@ -6,7 +6,7 @@ tag: posting
 projects: false
 hidden: true # don't count this post in blog pagination
 description: "A render that is clean because it does not show all the features of the original notebook."
-category: instruction
+category: blog
 author: kateta
 externalLink: false
 ---
