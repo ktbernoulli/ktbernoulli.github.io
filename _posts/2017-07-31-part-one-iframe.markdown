@@ -1,5 +1,5 @@
 ---
-title: "An example of Jupyter Notebook by .html in an iframe"
+title: "An example of a .html of your Jupyter Notebook in an iframe"
 layout: post
 date: 2017-07-27
 tag: project
