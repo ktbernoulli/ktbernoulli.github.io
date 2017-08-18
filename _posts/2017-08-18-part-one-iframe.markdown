@@ -1,12 +1,12 @@
 ---
-title: "An example of a .html of your Jupyter Notebook in an iframe"
+title: "tDM : An example of a .html of your Jupyter Notebook in an iframe"
 layout: post
 date: 2017-08-18
-tag: project
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "If you are unsatisfied with your project, improve upon mine."
-category: project
+tag: posting
+projects: false
+hidden: false # count this post in blog pagination
+description: "Probably the best render version for this particular theme I have, or if your theme has spacing issues."
+category: instructions
 author: kateta
 externalLink: false
 ---
