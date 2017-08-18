@@ -4,9 +4,9 @@ layout: post
 date: 2017-08-18
 tag: posting
 projects: false
-hidden: false # count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "Probably the best render version for this particular theme I have, or if your theme has spacing issues."
-category: instructions
+category: blog
 author: kateta
 externalLink: false
 ---
