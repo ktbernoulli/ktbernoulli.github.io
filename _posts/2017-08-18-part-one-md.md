@@ -3,7 +3,7 @@ title: "tDM : An example of a .md of your Jupyter Notebook"
 layout: post
 date: 2017-08-18
 tag: posting
-projects: false
+projects: true
 hidden: true # don't count this post in blog pagination
 description: "A render that is clean because it does not show all the features of the original notebook."
 category: blog
